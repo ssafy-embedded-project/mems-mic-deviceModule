@@ -1,0 +1,1 @@
+cmd_/home/pi/ics43432/ics43432.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/pi/ics43432/ics43432.ko /home/pi/ics43432/ics43432.o /home/pi/ics43432/ics43432.mod.o;  true
